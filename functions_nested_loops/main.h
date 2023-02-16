@@ -2,4 +2,4 @@
 #include <unistd.h>
 
 int _putchar(char c);
-char print_alphabet();
+char print_alphabet(void);
