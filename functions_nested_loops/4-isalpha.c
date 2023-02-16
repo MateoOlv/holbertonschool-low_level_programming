@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  *_isalpha - entry point
  *@c: int variable
