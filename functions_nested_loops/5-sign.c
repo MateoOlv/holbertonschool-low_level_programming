@@ -1,8 +1,11 @@
 #include "main.h"
 /**
- *print_sign - start
- *@n - int
- *Return : if n > 0 return 1, n < 0 return -1, n = 0 return 0
+ * print_sign - main function
+ *
+ * @n: char to comp
+ *
+ * Return: if n > 0 return 1, n < 0 return -1, n = 0 return 0
+ *
  */
 int print_sign(int n)
 {
