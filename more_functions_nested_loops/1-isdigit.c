@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ *_isdigit - main
+ *@c: c
+ *Return: return
+ */
 
 int _isdigit(int c)
 {
