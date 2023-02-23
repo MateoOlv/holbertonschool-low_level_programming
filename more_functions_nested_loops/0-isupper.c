@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_isuppper - main
+ *_isupper - main
  *@c: c
  *Return: return
  *
