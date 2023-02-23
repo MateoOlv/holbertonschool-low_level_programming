@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *print_diagonal - main
- *@n: n
+ *print_square - main
+ *@size: size
  *
  *
  */
