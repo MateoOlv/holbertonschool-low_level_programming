@@ -19,6 +19,7 @@ for (a = 1; a < 100; a++)
 	{
 		printf("Buzz");
 	}
+	}
 	else
 	{
 	printf("%d", a);
@@ -26,7 +27,6 @@ for (a = 1; a < 100; a++)
 	if (a != 100)
 	{
 	printf(" ");
-	}
 	}
 }
 printf("\n");
