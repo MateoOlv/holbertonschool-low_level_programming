@@ -21,7 +21,7 @@ for (a = 1; a < 100; a++)
 	}
 	else
 	{
-	print("%d", a);
+	printf("%d", a);
 	}
 	if (a != 100)
 	{
