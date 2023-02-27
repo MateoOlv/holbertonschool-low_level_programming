@@ -6,12 +6,11 @@
  */
 int _strlen(char *s)
 {
-	int length = 0;
+	int len = 0;
 
-	if (*s != '\0')
+	if (s[len] != '\0')
 	{
-		length++;
-		*s++;
+		len++;
 	}
-	return (length);
+	return (len);
 }
