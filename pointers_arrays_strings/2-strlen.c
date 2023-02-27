@@ -2,15 +2,16 @@
 /**
  *_strlen - main func
  *@s: string
- *return: string lenght
+ *Return: string lenght
  */
 int _strlen(char *s)
 {
-	int lenght = 0;
+	int length = 0;
 
-	if (s[lenght] != '\0')
+	if (*s != '\0')
 	{
-		lenght++;
+		length++;
+		*s++;
 	}
-	return (lenght);
+	return (length);
 }
