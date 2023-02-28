@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *_puts - main function
- *str: variable char type
+ *@str: variable char type
  */
 void _puts(char *str)
 {
