@@ -1,5 +1,8 @@
 #include "main.h"
-
+/**
+ *puts2 - main function
+ *@str: string
+ */
 void puts2(char *str)
 {
 	int i;
