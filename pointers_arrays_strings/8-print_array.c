@@ -2,8 +2,8 @@
 
 void print_array(int *a, int n)
 {
-	int x = 0;
-	for (; x < n; x++)
+	int x;
+	for (x = 0; x < n; x++)
 	{
 		printf("%d", a[x]);
 		if(x != n - 1)
@@ -11,5 +11,5 @@ void print_array(int *a, int n)
 			printf(", ");
 		}
 	}
-	_putchar('\n');
+	printf("\n");
 }
