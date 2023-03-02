@@ -6,32 +6,30 @@
  */
 int _atoi(char *s)
 {
-int a = 1;
+int a = 0;
 int b = 0;
-int con = 0;
-int tmp = *s - '0';
+int polo = 1;
+int trufal = 0;
+int d = (s[a] - '0');
 
-if (*s == ' ' || *s == '+')
+	while (s[a])
 	{
-		s++;
-	}
-	else if (*s == '-')
-		{
-			a = -1;
-			s++;
-		}
-while(*s)
-{
-	if (*s >= '0' && *s <= '9')
+	if (s[a] == '-')
 	{
-		b = b * 10 + tmp;
-		con = 1;
+		polo *= -1;
 	}
-	else if ((con = 0))
+	while (s[a] >= '0' && s[a] <= '9')
 	{
-		break;
+		b = (b * 10) + d;
+		a++;
+		trufal = 1;
 	}
-	s++;
-}
-	return b * a;
+	if (trufal == 1)
+	{
+	break;
+	}
+	a++;
+	}
+	b *= polo;
+	return (b);
 }
