@@ -2,13 +2,13 @@
 /**
  *reverse_array = main
  *@a: a
- *@b: b
+ *@n: n
  */
 void reverse_array(int *a, int n)
 {
 	int x, b;
 
-	for (x = 0; x < n /2; x++)
+	for (x = 0; x < n /i 2; x++)
 	{
 	b = a[x];
 	a[x] = a[n - x - 1];
