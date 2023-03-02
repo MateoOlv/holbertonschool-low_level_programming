@@ -13,7 +13,7 @@ for (a = 0; s[a] != '\0'; a++)
 {
 	if (s[a] == c)
 	{
-	return (s + i);
+	return (s + a);
 	}
 }
 if (c == s[a])
