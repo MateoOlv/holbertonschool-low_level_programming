@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ *reverse_array = main
+ *@a: a
+ *@b: b
+ */
 void reverse_array(int *a, int n)
 {
 	int x, b;
