@@ -4,23 +4,23 @@
  *@a: a
  *Return: return
  */
-char *cap_string(char *a)
+char *cap_string(char *s)
 {
-	int x;
-	int num = 0;
-	char n[] = {'\n', '\t', ' ', '.', ',', ';', ',',
-'!', '?', '(', ')', '{', '}'};
-	while (a[num])
+	int a = 0;
+	int i = 0;
+	char spc[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
+
+	while (s [a])
 	{
-	while (x < 13)
-	{
-	if ((num == 0 || a[num - 1] == n[num]) && (a[num] >= 97 && a[num] <= 122))
-	{
-		a[num] -= 32;
+	while (i < x)
+		{
+		if ((a == 0 || s[a - 1] == spc[i]) && (s[a] >= 97 && s[a] <= 122))
+		{
+			s[a] -= 32;
+		}
+		i++;
+		}
+	a++;
 	}
-	x++;
-	}
-	num++;
-	}
-	return (a);
+	return (s);
 }
