@@ -1,5 +1,11 @@
 #include "main.h"
-
+/**
+ *_strncpy - main
+ *@dest: Destination
+ *@src: Source
+ *@n: N
+ *Return: Return Dest
+ */
 char *_strncpy(char *dest, char *src, int n)
 {
 	int a = 0;
