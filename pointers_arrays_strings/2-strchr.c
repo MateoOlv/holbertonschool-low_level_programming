@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_strchr
+ *_strchr - main
  *@s: s
  *@c: c
  *
