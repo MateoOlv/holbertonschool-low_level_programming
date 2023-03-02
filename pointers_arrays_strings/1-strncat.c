@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *strncat - main funtion
+ *_strncat - main funtion
  *@dest: destination input
  *@src: source input
  *@n: amount input
