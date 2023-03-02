@@ -10,7 +10,6 @@ int a = 0;
 int b = 0;
 int polo = 1;
 int trufal = 0;
-int d = (s[a] - '0');
 
 	while (s[a])
 	{
@@ -20,7 +19,7 @@ int d = (s[a] - '0');
 	}
 	while (s[a] >= '0' && s[a] <= '9')
 	{
-		b = (b * 10) + d;
+		b = (b * 10) + (s[a] - '0');
 		a++;
 		trufal = 1;
 	}
