@@ -1,5 +1,11 @@
 #include "main.h"
-
+/**
+ *strncat - main funtion
+ *@dest: destination input
+ *@src: source input
+ *@n: amount input
+ *Return: return destination
+ */
 char *_strncat(char *dest, char *src, int n)
 {
 	int a;
