@@ -1,26 +1,31 @@
 #include "main.h"
+#include "2-strlen.c"
 /**
  *cap_string - main
- *@a: a
+ *@s: s
  *Return: return
  */
 char *cap_string(char *s)
 {
-	int a = 0;
-	int i = 0;
-	char spc[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
+	int a, c;
+	int may = 1;
+	char sp[] = {32, 9, 10, 44, 59, 34, 40, 41, 123, 125, 46, 33, 63};
 
-	while (s [a])
+	for (a = 0; a < _strlen(s); a++)
 	{
-	while (i < x)
-		{
-		if ((a == 0 || s[a - 1] == spc[i]) && (s[a] >= 97 && s[a] <= 122))
+		if (s[a] >= 'a' && s[a] <= 'z' && may == 1)
 		{
 			s[a] -= 32;
 		}
-		i++;
+		may = 0;
+		for (c = 0; sp[c]; c++)
+		{
+			if (s[a] == sp[n])
+			{
+			may = 1;
+			}
 		}
-	a++;
+	}
 	}
 	return (s);
 }
