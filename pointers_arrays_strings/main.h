@@ -18,3 +18,4 @@ char *_strncat(char *dest, char *src, int n);
 char *cap_string(char *);
 char *leet(char *);
 unsigned int _strspn(char *s, char *accept);
+void print_diagsums(int *a, int size);

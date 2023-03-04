@@ -12,7 +12,7 @@ int suma2 = 0;
 
 for (x = 0; x < size; x++)
 {
-	suma1 = suma1 + a[x * size + 1];
+	suma1 = suma1 + a[x * (size + 1)];
 	suma2 = suma2 + a[(size - 1) * (x + 1)];
 }
 printf("%d, %d\n", suma1, suma2);
