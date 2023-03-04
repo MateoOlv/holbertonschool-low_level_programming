@@ -8,6 +8,7 @@
 char *_strstr(char *haystack, char *needle)
 {
 	int x, z;
+
 	if (needle[0] == '\0')
 	{
 	return (haystack);
@@ -27,5 +28,5 @@ char *_strstr(char *haystack, char *needle)
 	}
 	}
 	}
-return (0);
+return ('\0');
 }
