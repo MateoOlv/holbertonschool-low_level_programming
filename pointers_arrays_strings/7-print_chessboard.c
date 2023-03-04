@@ -8,7 +8,7 @@ for (x = 0; x < 8; x++)
 {
 	for (y = 0; y < 8; y++)
 	{
-		_putchar(a[x][z]);
+		_putchar(a[x][y]);
 	}
 	_putchar('\0');
 }
