@@ -3,7 +3,7 @@
  *_strchr - main
  *@s: s
  *@c: c
- *
+ *Return: Return
  */
 char *_strchr(char *s, char c)
 {
