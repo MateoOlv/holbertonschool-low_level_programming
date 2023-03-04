@@ -1,5 +1,8 @@
 #include "main.h"
-
+/**
+ *print_chessboard - print chess
+ *@a - a
+ */
 void print_chessboard(char (*a)[8])
 {
 int x, y;
@@ -10,6 +13,6 @@ for (x = 0; x < 8; x++)
 	{
 		_putchar(a[x][y]);
 	}
-	_putchar('\0');
+	_putchar('\n');
 }
 }
