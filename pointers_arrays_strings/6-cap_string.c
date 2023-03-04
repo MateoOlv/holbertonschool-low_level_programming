@@ -20,12 +20,11 @@ char *cap_string(char *s)
 		may = 0;
 		for (c = 0; sp[c]; c++)
 		{
-			if (s[a] == sp[n])
+			if (s[a] == sp[c])
 			{
 			may = 1;
 			}
 		}
-	}
 	}
 	return (s);
 }
