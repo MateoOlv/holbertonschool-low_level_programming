@@ -11,7 +11,7 @@ if (n < 2)
 {
 return (0);
 }
-return (primonum(n, a))
+return (primonum(n, a));
 }
 /**
  *primonum - prime
