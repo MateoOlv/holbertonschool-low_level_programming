@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ *_sqrt_recursion - recursion
+ *@n: n
+ *Return: Return
+ */
 int _sqrt_recursion(int n)
 {
 	if (n == 0)
@@ -20,6 +24,12 @@ int _sqrt_recursion(int n)
 	}
 
 }
+/**
+ *numraiz - raiz
+ *@n: n
+ *@a:a
+ *Return: return
+ */
 int numraiz(int n, int a)
 {
 	if (n == (a * a))
