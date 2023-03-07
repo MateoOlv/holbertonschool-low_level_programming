@@ -22,15 +22,15 @@ int _sqrt_recursion(int n)
 }
 int raizcuadrada (int a, int n)
 {
-	if (n < (a * a))
-	{
-		return (-1);
-	}
-	else if (n == (a * a))
+	if (n == (a * a))
 	{
 		return (a);
 	}
 	else if (n > (a * a))
 	{
-		return (sqrt(n, a + 1));
+		return (raizcuadrada(n, a + 1));
+	}
+	else if (n < (a * a))
+	{
+		return (-1);
 	}
