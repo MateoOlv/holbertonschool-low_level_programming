@@ -16,7 +16,7 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		return(raizcuadrada(n, 1));
+		return(raizcuadrada(1, n));
 	}
 
 }
@@ -30,7 +30,8 @@ int raizcuadrada (int a, int n)
 	{
 		return (raizcuadrada(n, a + 1));
 	}
-	else if (n < (a * a))
+	else
 	{
 		return (-1);
 	}
+}
