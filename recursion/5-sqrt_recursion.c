@@ -20,7 +20,7 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		return(numraiz(n, 1));
+		return (numraiz(n, 1));
 	}
 
 }
