@@ -16,11 +16,11 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		return(raizcuadrada(1, n));
+		return(raizcuadrada(n, 1));
 	}
 
 }
-int raizcuadrada (int a, int n)
+int raizcuadrada (int n, int a)
 {
 	if (n == (a * a))
 	{
