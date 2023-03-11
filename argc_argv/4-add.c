@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 			if (!isdigit(argv[a][b]))
 			{
 				printf("Error\n");
-				return(-1);
+				return (1);
 			}
 			}
 		res += atoi(argv[a]);
