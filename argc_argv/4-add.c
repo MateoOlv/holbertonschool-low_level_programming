@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
 	int a;
 	int b;
 	int res = 0;
+
 	if (argc > 1)
 	{
 		for (a = 1; a < argc; a++)
