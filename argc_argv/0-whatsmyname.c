@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ *main - prints its name, followed by a new line.
+ *@argc: argc
+ *@argv: argv
+ */
 
 int main(int argc, char *argv[])
 {
