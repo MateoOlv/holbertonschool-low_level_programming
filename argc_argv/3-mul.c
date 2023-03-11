@@ -5,7 +5,7 @@
  *
  *
  */
-int main(int argc, char *arv[])
+int main(int argc, char *argv[])
 {
 	if (argc == 3)
 	{
