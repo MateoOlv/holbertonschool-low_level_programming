@@ -8,14 +8,14 @@
 int main(int argc, char *argv[])
 {
 	int a;
-	int b;
-	int res = 0;
+	unsigned int b;
+	unsigned int res = 0;
 
 	if (argc > 1)
 	{
 		for (a = 1; a < argc; a++)
 		{
-			for (b = 0; argv[a][b]; a++)
+			for (b = 0; argv[a][b]; b++)
 			{
 			if (!isdigit(argv[a][b]))
 			{
@@ -24,6 +24,7 @@ int main(int argc, char *argv[])
 			}
 			}
 		res += atoi(argv[a]);
+		b++
 		}
 	}
 	printf("%d\n", res);
