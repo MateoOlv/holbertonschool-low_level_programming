@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *create_array - create array
- *@size: size 
+ *@size: size
  *@c: array
  *Return: a
  */
@@ -24,5 +24,4 @@ char *create_array(unsigned int size, char c)
 		a[s] = c;
 	}
 	return (a);
-
 }
