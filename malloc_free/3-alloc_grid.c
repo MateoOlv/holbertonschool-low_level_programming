@@ -29,12 +29,12 @@ int **alloc_grid(int width, int height)
 			{
 				free(a[j]);
 			}
-			free(a)
+			free(a);
 		}
 	}
 	for (i = 0; i < height; i++)
 	{
-		for (j = 0; k < width)
+		for (j = 0; k < width; j++)
 		{
 			a[i][j] = 0;
 		}
